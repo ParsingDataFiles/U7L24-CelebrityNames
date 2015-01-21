@@ -32,7 +32,7 @@ public class CelebrityNames
             String firstName = sc.next( );
             String middleName = sc.next( );
             String lastName = sc.next( );
-            String birthDate = sc.next( );
+            String birthday = sc.next( );
             otherName[j] = lastName + ", " + firstName + " " + middleName + " -- " + birthday;
         } 
         Arrays.sort(otherName);
